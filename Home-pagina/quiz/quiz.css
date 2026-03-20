@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;}
-.bovengrid {
+.grid {
     height: 80px;
     background-color: cornflowerblue;
     display: flex;
@@ -38,11 +38,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;}  
-.menu-btn {
+.menu {
     height: 30px;
     background: lightgray;
     border-radius: 20px;}
-.big-box {
+.box {
     margin-top: auto;
     height: 120px;
     background: lightgray;
@@ -55,11 +55,11 @@ body {
 #vraag {
     font-size: 22px;
     margin-bottom: 30px;}
-.answers {
+.antwoorden {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;}
-.answer {
+.a {
     height: 100px;
     border: none;
     font-size: 22px;
@@ -68,9 +68,9 @@ body {
 .groen { background-color: green; }
 .blauw { background-color: blue; }
 .rood { background-color: red; }
-.zwaaaaaard { background-color: black; }
+.zwart { background-color: black; }
 
-.answer:hover {
+.antwoord:hover {
     transform: scale(1.1)}
 
 #resultaat {
@@ -78,7 +78,7 @@ body {
     font-size: 18px;
 }
 
-#scoreBox {
+#score {
     margin-top: 10px;
 }
 
