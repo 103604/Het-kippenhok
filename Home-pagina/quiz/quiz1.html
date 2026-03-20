@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Quizzie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
 </head>
 <body>
 
-<div class="container">
-    
-    <div class="header">
-        <div class="logo">Quizzie</div>
+<div class="alles">
+    <div class="bovengrid">
+        <div class="logo"><img src="images/undefined.jpeg"></div>
         <div class="top-box"></div>
     </div>
-    
+
+  
     <div class="main">
-        
         <div class="sidebar">
             <div class="menu-btn"></div>
             <div class="menu-btn"></div>
@@ -21,21 +25,20 @@
 
             <div class="big-box"></div>
         </div>
-
-        <!-- Content -->
+        
         <div class="content">
 
-            <p id="vraag">Vraag komt hie</p>
+            <p id="vraag">Vraag komt hier</p>
 
             <div class="answers">
-                <button class="answer green" onclick="checkAntwoord('a')">A</button>
-                <button class="answer blue" onclick="checkAntwoord('b')">B</button>
-                <button class="answer red" onclick="checkAntwoord('c')">C</button>
-                <button class="answer yellow" onclick="checkAntwoord('d')">D</button>
+                <button class="answer groen">A</button>
+                <button class="answer blauw">B</button>
+                <button class="answer rood">C</button>
+                <button class="answer zwaaaaaard">D</button>
             </div>
 
-            <p id="resultaat"></p>
-            <p id="scoreBox">Score: <span id="score">0</span></p>
+            <p id="resultaat">Goed of fout komt hier.</p>
+            <p id="scoreBox">Score: 0</p>
 
         </div>
 
@@ -43,6 +46,5 @@
 
 </div>
 
-<script src="Quiz-1.js"></script>
 </body>
 </html>
