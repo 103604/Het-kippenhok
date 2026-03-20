@@ -28,12 +28,11 @@ function checkAntwoord(antwoord) {
     }
     if (huidigeVraag.goed === antwoord) {
         punten++;
-        
     }
     else {
         alert("Fout")
     }
-    document.getElementById("score").innerHTML = punten;
+    document.getElementById("scoreBox").innerHTML = punten;
     vraagAantal++;
     document.getElementById("vraag").innerHTML = vragen[vraagAantal].vraag;
 }
