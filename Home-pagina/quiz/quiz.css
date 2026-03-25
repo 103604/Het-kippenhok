@@ -60,7 +60,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 40px;}
 .antwoord {
-    height: 100px;
+    height: 200px;
     border: none;
     font-size: 22px;
     color: white;
