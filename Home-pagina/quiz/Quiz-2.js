@@ -11,77 +11,75 @@ button.type = "button";
 
 let vragen = [
     {
-        vraag: "Hoe heet een gebied met extreem weinig regen?",
-        opties: ["Jungle", "Toendra", "Woestijn", "Savanne"],
+        vraag: "Waar komt een poolklimaat voor?",
+        opties: ["Noordpool en Zuidpool", "Europa en Azië", "Afrika en Amerika", "Australië en Azië"],
+        goed: "0"
+    },
+    {
+        vraag: "Op welk continent ligt Antarctica?",
+        opties: ["Antarctica", "Europa", "Afrika", "Azië"],
+        goed: "0"
+    },
+    {
+        vraag: "Waar leven ijsberen?",
+        opties: ["Zuidpool", "Noordpool", "Afrika", "Australië"],
+        goed: "1"
+    },
+    {
+        vraag: "Welk dier leeft op Antarctica?",
+        opties: ["Pinguïn", "IJsbeer", "Tijger", "Giraf"],
+        goed: "0"
+    },
+    {
+        vraag: "Hoe is de temperatuur meestal in een poolklimaat?",
+        opties: ["Heel warm", "Mild", "Heel koud", "Tropisch"],
         goed: "2"
     },
     {
-        vraag: "Welke grote woestijn ligt in Afrika?",
-        opties: ["Sahara", "Gobi", "Atacama", "Kalahari"],
+        vraag: "Hoe heet dik ijs op land?",
+        opties: ["Gletsjer", "Moeras", "Duin", "Plateau"],
         goed: "0"
     },
     {
-        vraag: "In welk werelddeel ligt de Sahara?",
-        opties: ["Azië", "Afrika", "Esuropa", "Australië"],
-        goed: "1"
-    },
-    {
-        vraag: "Hoe heet het klimaat van een woestijn?",
-        opties: ["Poolklimaat", "Woestijnklimaat", "Zeeklimaat", "Landklimaat"],
-        goed: "1"
-    },
-    {
-        vraag: "Welke plant kan goed overleven in een woestijn?",
-        opties: ["Cactus", "Eik", "Spar", "Bamboe"],
+        vraag: "Hoe heet het lichtverschijnsel bij de polen?",
+        opties: ["Poollicht", "Zonnestorm", "Zandstorm", "Regenboog"],
         goed: "0"
     },
     {
-        vraag: "Hoe heet een waterbron midden in de woestijn?",
-        opties: ["Fjord", "Oase", "Lagune", "Delta"],
+        vraag: "Welke kleur heeft sneeuw meestal?",
+        opties: ["Groen", "Wit", "Rood", "Blauw"],
         goed: "1"
     },
     {
-        vraag: "Welk dier leeft vaak in de Sahara?",
-        opties: ["Kameel", "Panda", "Zeehond", "Rendier"],
-        goed: "0"
-    },
-    {
-        vraag: "Wat is het grootste probleem voor mensen in de woestijn?",
-        opties: ["Te veel sneeuw", "Te weinig water", "Te veel bomen", "Te veel rivieren"],
+        vraag: "Welk voertuig wordt vaak gebruikt op sneeuw?",
+        opties: ["Fiets", "Slee", "Boot", "Skateboard"],
         goed: "1"
     },
     {
-        vraag: "Hoe is het vaak ’s nachts in de woestijn?",
-        opties: ["Warm", "Koud", "Regenachtig", "Winderig"],
-        goed: "2"
-    },
-    
-    {
-        vraag: "Welke kleur kleding helpt tegen hitte in de woestijn?",
-        opties: ["Zwart", "Donkerblauw", "Wit", "Paars"],
-        goed: "2 "
-    },
-    {
-        vraag: "Hoeveel graden kan het overdag worden in een hete woestijn?",
-        goed: "50"
-    },
-    {
-        vraag: "Hoeveel graden kan de temperatuur ’s nachts dalen in de woestijn?",
+        vraag: "Welk dier leeft in poolgebieden?",
+        opties: ["Rendier", "Kangoeroe", "Leeuw", "Aap"],
         goed: "0"
     },
     {
-        vraag: "Hoeveel procent van het aardoppervlak bestaat uit woestijn?",
-        goed: "33"
+        vraag: "Hoeveel graden Celsius kan het overdag gemiddeld worden op de Noordpool?",
+        goed: "0"
     },
     {
-        vraag: "Hoeveel dagen kan een kameel zonder water overleven?",
-        goed: "10"
+        vraag: "Hoeveel procent van Antarctica is bedekt met ijs?",
+        goed: "98"
     },
     {
-        vraag: "Hoeveel millimeter regen valt er gemiddeld per jaar in een woestijn?",
-        goed: "250"
+        vraag: "Hoeveel maanden per jaar is het op de Zuidpool gemiddeld donker (poolnacht)?",
+        goed: "6"
     },
-    
+    {
+        vraag: "Hoeveel kilo kan een volwassen ijsbeer gemiddeld wegen?",
+        goed: "450"
+    },
+    {
+        vraag: "Hoeveel meter diep kan het ijs op Groenland gemiddeld zijn?",
+        goed: "2000"
+    }
 ];
 
 let vraagAantal = 0;
@@ -100,7 +98,7 @@ window.addEventListener("load", function () {
 })
 
 function checkAntwoord(antwoord) {
-
+    
     if (vraagAantal === 9) {
         let vraagA = document.getElementById("a");
         let vraagB = document.getElementById("b");

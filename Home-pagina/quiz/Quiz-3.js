@@ -11,77 +11,75 @@ button.type = "button";
 
 let vragen = [
     {
-        vraag: "Hoe heet een gebied met extreem weinig regen?",
-        opties: ["Jungle", "Toendra", "Woestijn", "Savanne"],
-        goed: "2"
-    },
-    {
-        vraag: "Welke grote woestijn ligt in Afrika?",
-        opties: ["Sahara", "Gobi", "Atacama", "Kalahari"],
+        vraag: "Wat is een moesson?",
+        opties: ["Sterke seizoenswind", "Berg", "Rivier", "Woestijn"],
         goed: "0"
     },
     {
-        vraag: "In welk werelddeel ligt de Sahara?",
-        opties: ["Azië", "Afrika", "Esuropa", "Australië"],
-        goed: "1"
-    },
-    {
-        vraag: "Hoe heet het klimaat van een woestijn?",
-        opties: ["Poolklimaat", "Woestijnklimaat", "Zeeklimaat", "Landklimaat"],
-        goed: "1"
-    },
-    {
-        vraag: "Welke plant kan goed overleven in een woestijn?",
-        opties: ["Cactus", "Eik", "Spar", "Bamboe"],
+        vraag: "Waar komt moesson veel voor?",
+        opties: ["Azië", "Europa", "Antarctica", "Groenland"],
         goed: "0"
     },
     {
-        vraag: "Hoe heet een waterbron midden in de woestijn?",
-        opties: ["Fjord", "Oase", "Lagune", "Delta"],
-        goed: "1"
-    },
-    {
-        vraag: "Welk dier leeft vaak in de Sahara?",
-        opties: ["Kameel", "Panda", "Zeehond", "Rendier"],
+        vraag: "Heeft een moessonklimaat een nat seizoen?",
+        opties: ["Ja", "Nee", "Alleen sneeuw", "Alleen wind"],
         goed: "0"
     },
     {
-        vraag: "Wat is het grootste probleem voor mensen in de woestijn?",
-        opties: ["Te veel sneeuw", "Te weinig water", "Te veel bomen", "Te veel rivieren"],
+        vraag: "Wat brengt de moesson vaak mee?",
+        opties: ["Veel regen", "Veel sneeuw", "Veel zand", "Geen wolken"],
+        goed: "0"
+    },
+    {
+        vraag: "In welk land komt moesson vaak voor?",
+        opties: ["India", "Noorwegen", "Canada", "IJsland"],
+        goed: "0"
+    },
+    {
+        vraag: "Wat kan veel regen veroorzaken?",
+        opties: ["Overstromingen", "Aardbevingen", "Vulkaanuitbarstingen", "Sneeuwstormen"],
+        goed: "0"
+    },
+    {
+        vraag: "Welke plant groeit veel in moessongebieden?",
+        opties: ["Rijst", "Cactus", "Dennenboom", "Mos"],
+        goed: "0"
+    },
+    {
+        vraag: "Wanneer begint het regenseizoen vaak?",
+        opties: ["Zomer", "Winter", "Lente", "Herfst"],
+        goed: "0"
+    },
+    {
+        vraag: "Wat gebeurt met rivieren bij zware regen?",
+        opties: ["Ze drogen op", "Ze overstromen", "Ze verdwijnen", "Ze bevriezen"],
         goed: "1"
     },
     {
-        vraag: "Hoe is het vaak ’s nachts in de woestijn?",
-        opties: ["Warm", "Koud", "Regenachtig", "Winderig"],
-        goed: "2"
-    },
-    
-    {
-        vraag: "Welke kleur kleding helpt tegen hitte in de woestijn?",
-        opties: ["Zwart", "Donkerblauw", "Wit", "Paars"],
-        goed: "2 "
+        vraag: "Waarom is moessonregen belangrijk?",
+        opties: ["Voor landbouw", "Voor sneeuw", "Voor zand", "Voor vulkanen"],
+        goed: "0"
     },
     {
-        vraag: "Hoeveel graden kan het overdag worden in een hete woestijn?",
+        vraag: "Hoeveel maanden duurt het regenseizoen gemiddeld in India?",
+        goed: "4"
+    },
+    {
+        vraag: "Hoeveel liter regen valt er gemiddeld per jaar in een moessongebied?",
+        goed: "2000"
+    },
+    {
+        vraag: "Hoeveel procent van Azië wordt beïnvloed door de moesson?",
         goed: "50"
     },
     {
-        vraag: "Hoeveel graden kan de temperatuur ’s nachts dalen in de woestijn?",
-        goed: "0"
+        vraag: "Hoeveel millimeter regen valt gemiddeld tijdens de natste maand?",
+        goed: "400"
     },
     {
-        vraag: "Hoeveel procent van het aardoppervlak bestaat uit woestijn?",
-        goed: "33"
-    },
-    {
-        vraag: "Hoeveel dagen kan een kameel zonder water overleven?",
-        goed: "10"
-    },
-    {
-        vraag: "Hoeveel millimeter regen valt er gemiddeld per jaar in een woestijn?",
-        goed: "250"
-    },
-    
+        vraag: "Hoeveel tijd heeft een boer gemiddeld om het regenseizoen te benutten voor het planten van rijst?",
+        goed: "3"
+    }
 ];
 
 let vraagAantal = 0;
